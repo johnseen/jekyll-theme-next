@@ -91,7 +91,7 @@ rss:
 # icon between year and author @Footer
 authoricon: heart
 
-# Footer `powered-by` and `theme-info` copyright
+Footer `powered-by` and `theme-info` copyright
 copyright: true
 
 # ---------------------------------------------------------------
@@ -117,11 +117,11 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  about: /about/
+  categories: /categories/
+  #about: /about/
   archives: /archives/
-  tags: /tags/
-  #sitemap: /sitemap.xml
+  #tags: /tags/
+  sitemap: /sitemap.xml
   commonweal: /404.html
 
 
