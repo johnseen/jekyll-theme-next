@@ -49,7 +49,7 @@ markdown就是为了让你能够更爽更快码字而设计的，所以对码农
 ##超链接
 【替换链接的文字】（链接）
 
-【johnseen】（www.johnseensun.com）
+[johnseen]（www.johnseensun.com）
 
 
 ##引用
@@ -69,5 +69,5 @@ markdown就是为了让你能够更爽更快码字而设计的，所以对码农
 - ctrl + L 超链接
 - ctrl + G 图片
 
-![](http://https://unsplash.com/?photo=PdZePuFdS-o)
+![](https://ws1.sinaimg.cn/large/005WXpR7ly1fj8xowkpnlj30qo0ds0uj.jpg)
 
