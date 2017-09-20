@@ -57,6 +57,7 @@ defaults:
     values:
       layout: "post"
       comments: true
+ disqus_shortname: coommit
 
 # Atom feed
 feed:
