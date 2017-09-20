@@ -57,7 +57,7 @@ defaults:
     values:
       layout: "post"
       comments: true
- disqus_shortname: coommit
+ 
 
 # Atom feed
 feed:
@@ -382,7 +382,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname:  发表你的看法
+  shortname:  www.johnseensun.com
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
