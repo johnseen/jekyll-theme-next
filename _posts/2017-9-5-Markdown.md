@@ -5,7 +5,6 @@ date: 2017-09-05
 category: Photo
 photos:
 - https://ws1.sinaimg.cn/large/005WXpR7ly1fj8xhk4nr8j33ig2ei7wh.jpg
-- consectetur
 description: Markdown
 ---
 
