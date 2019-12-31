@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Linux, Container"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -122,8 +122,8 @@ menu:
   #about: /about/
   archives: /archives/
   #tags: /tags/
-  #sitemap: /sitemap.xml
-  commonweal: /404.html
+  sitemap: /sitemap.xml
+  #commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -199,8 +199,8 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: PT Mono
-    size: 21
+    family: Monda
+    size: 14
 
 
 
