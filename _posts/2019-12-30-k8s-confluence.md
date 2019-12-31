@@ -13,8 +13,9 @@ description: k8s-confluence
 
 1. helm安装mysql  `helm install -n mysql-release -f ~/.helm/cache/archive/mysql/values.yaml`
 2.  mysql 配置文件如下:
-   ```
-   ## mysql image version
+
+```
+## mysql image version
 ## ref: https://hub.docker.com/r/library/mysql/tags/
 ##
 image: "mysql"
@@ -245,19 +246,21 @@ initContainer:
       memory: 10Mi
       cpu: 10m
 
-   ```
+```
     
 
 ## 创建Confluence镜像
 
-1. `docker run -v /data/:/var/atlassian/application-data/confluence --name="confluence" -d -p 8090:8090 -p 8091:8091 atlassian/confluence-server`
-2. `docker cp mysql-connector-java-5.1.47.jar confluence:/opt/atlassian/confluence/lib`
-3. `docker tag 50bd4772f66b  registry.apps.clue.kube.com/confluence:v1`
-4. `docker push registry.apps.clu.kube.com/confluence:v1`
+1. docker run -v /data/:/var/atlassian/application-data/confluence --name="confluence" -d -p 8090:8090 -p 8091:8091 atlassian/confluence-server
+2. docker cp mysql-connector-java-5.1.47.jar confluence:/opt/atlassian/confluence/lib
+3. docker tag 50bd4772f66b  registry.apps.clue.kube.com/confluence:v1
+4. docker push registry.apps.clu.kube.com/confluence:v1
 
 ## 集群中部署Confluence
+
 ### 创建k8s拉取私有仓库镜像的秘钥
-   `kubectl create secret docker-registry regsecret --docker-server=registry.apps.clu.kube.com --docker-username=admin --docker-password=admin123 `
+
+   ``` kubectl create secret docker-registry regsecret --docker-server=registry.apps.clu.kube.com --docker-username=admin --docker-password=admin123 ```
 
 ### 编写confluence安装yaml文件
 
