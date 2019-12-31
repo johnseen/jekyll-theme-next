@@ -1,4 +1,4 @@
----
+﻿---
 type: technology
 title: Kubernets安装部署confluence
 date: 2019-12-30
