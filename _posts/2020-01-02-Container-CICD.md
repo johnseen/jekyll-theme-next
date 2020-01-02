@@ -664,8 +664,9 @@
 		}
    ``` 
 4. kubernetes部署文件样例
-   ```yaml
-   	apiVersion: v1
+  ```yaml
+
+  apiVersion: v1
 	kind: Service
 	metadata:
 	  name: scm-appointment-service
@@ -675,7 +676,7 @@
 	  selector:
 	    app: scm-appointment-deployment
 	
-	---
+	 ---
 	
 	apiVersion: extensions/v1beta1
 	kind: Deployment
@@ -701,4 +702,4 @@
 	        - containerPort: 20015
 	      imagePullSecrets:
 	        - name: aliyun-secret
-``` 
+  ``` 
