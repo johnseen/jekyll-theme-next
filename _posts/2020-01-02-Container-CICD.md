@@ -664,7 +664,7 @@
 		}
    ``` 
 4. kubernetes部署文件样例
-  ```yaml
+```yaml
 
   apiVersion: v1
 	kind: Service
@@ -702,4 +702,4 @@
 	        - containerPort: 20015
 	      imagePullSecrets:
 	        - name: aliyun-secret
-  ``` 
+``` 
